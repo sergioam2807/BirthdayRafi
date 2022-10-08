@@ -1,0 +1,44 @@
+.navbar_container{
+    display: flex;
+    margin-top: 5px;
+    height: 80px;
+}
+
+.nav_title_container{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_title{
+    width: 150px;
+    height: 70px;
+}
+
+.nav_list_container{
+    width: 80%;
+}
+
+.nav_list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.list_container{
+   display: flex; 
+   text-align: center;
+   margin: 0px 5px 0px 5px;
+   cursor: pointer;
+   font-weight: 300;
+   font-family: 'Luckiest Guy', cursive;
+}
+
+.list_container:hover{
+    background-color: yellow;
+}
+
