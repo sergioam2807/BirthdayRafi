@@ -21,6 +21,21 @@
     background: rgb(208,162,95)
 }
 
+@media (max-width: 650px){
+    .countDown_container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .countDown_party{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
 .countDown_time{
     display: flex;
     justify-content: center;
