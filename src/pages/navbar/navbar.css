@@ -27,6 +27,12 @@
     text-decoration: none;
     list-style: none;
     margin-top: 20px;
+    font-family: 'Luckiest Guy', cursive;
+    color: black;
+}
+
+.nav_link{
+    cursor: pointer;
 }
 
 .list_container{
@@ -40,5 +46,7 @@
 
 .list_container:hover{
     background-color: yellow;
+    color: black;
+    border-radius: 10px;
 }
 

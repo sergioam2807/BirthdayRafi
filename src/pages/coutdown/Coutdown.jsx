@@ -14,7 +14,7 @@ export const Coutdown = () => {
 
     const startTimer = () =>{
 
-        const birthdayParty = new Date("Nov 13,2022").getTime();
+        const birthdayParty = new Date("Nov 12,2022").getTime();
 
         interval = setInterval(()=>{
             const now = new Date().getTime();
@@ -46,9 +46,9 @@ export const Coutdown = () => {
 
     return (
         <>
-        <div className='countDown_container_container'>
+        <div className='countDown_container_container' id='countDown'>
 
-            <h1 className='countDown_party'>13 de Noviembre 2022</h1>
+            <h1 className='countDown_party'>12 de Noviembre 2022</h1>
 
             <div className='countDown_container'>
                 <div>

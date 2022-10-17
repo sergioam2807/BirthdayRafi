@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll';
 import './navbar.css';
 
 export const NavBar = () => {
@@ -11,9 +12,11 @@ export const NavBar = () => {
 
             <div className='nav_list_container'>
                 <ul className="nav_list">
-                    <li className='list_container'>Mi cumple</li>
-                    <li className='list_container'>Experiencias Previas</li>
-                    <li className='list_container'>Dirección</li>
+
+                    <Link  className='nav_link nav_list list_container' to='invitation' spy={true} smooth={true} offset={50} duration={500}>Mi cumple</Link>
+                    <Link className='nav_link nav_list list_container' to='slider' spy={true} smooth={true} offset={50} duration={500}>Experiencias Previas</Link>
+                    <Link className='nav_link nav_list list_container' to='map' spy={true} smooth={true} offset={50} duration={500}>Dirección</Link>
+
                 </ul>
             </div>
 

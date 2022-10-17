@@ -10,6 +10,7 @@ export const Slider = () => {
   return (
     <>
       <Swiper 
+        id="slider"
         modules={[Pagination, Autoplay ]}
         autoplay={{
           delay:3000,

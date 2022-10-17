@@ -1,0 +1,17 @@
+.map_container{
+    margin: 50px 0px 50px 0px;
+}
+
+.map_tittle{
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.googleMap{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+}
+
