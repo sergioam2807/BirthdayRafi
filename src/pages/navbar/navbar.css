@@ -1,7 +1,12 @@
 .navbar_container{
+    background-color: aliceblue;
     display: flex;
-    margin-top: 5px;
-    height: 80px;
+    margin-top: px;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    opacity: 0.9;
 }
 
 .nav_title_container{

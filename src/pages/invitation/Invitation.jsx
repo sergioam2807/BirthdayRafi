@@ -11,8 +11,8 @@ export const Invitation = () => {
           </div>
 
           <div className='invitation_text_container animate__animated animate__heartBeat'>
-            <p className='invitation_paragraph'>Estas Invitado</p>
-            <h1 className='invitation_title'>Cumpleaños n° 2 de Rafael </h1>
+            <p className='invitation_paragraph'>Rafael te invita a su</p>
+            <h1 className='invitation_title'>Cumpleaños n° 2 </h1>
           </div>
 
       </div>

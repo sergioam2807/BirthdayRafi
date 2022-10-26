@@ -5,6 +5,7 @@ import { GoogleMap } from './pages/map/GoogleMap';
 import { NavBar } from './pages/navbar/NavBar'
 import { Slider } from './pages/slider/Slider';
 import { Team } from './pages/team/Team';
+import { WishList } from './pages/wishList/WishList';
 
 export const BirthdayApp = () => {
   return (
@@ -14,6 +15,7 @@ export const BirthdayApp = () => {
         <Coutdown/>
         <Slider/>
         {/* <Team/> */}
+        <WishList/>
         <GoogleMap/>
     </>
   )

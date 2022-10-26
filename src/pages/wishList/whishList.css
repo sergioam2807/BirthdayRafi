@@ -1,0 +1,36 @@
+.wish_title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.wish_list_list{
+    border: 2px black solid;
+    border-radius: 20px;
+    background: rgb(248, 252, 119);
+    margin: 0px 10px 0px 10px;
+}
+
+.titulo{
+    margin-top: 20px;
+    font-family: 'Luckiest Guy', cursive;
+    border-radius: 10px;
+    margin: 20px 50px 20px 50px;
+    font-size: 30px;
+    display: inline-flex;
+    
+
+    
+    
+}
+
+@media (max-width: 700px){
+    .titulo{
+        margin-top: 20px;
+        font-family: 'Luckiest Guy', cursive;
+        border-radius: 10px;
+        margin: 20px 5px 0px 5px;
+        display: flex;
+        justify-content: center;
+    }
+}

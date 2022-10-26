@@ -1,0 +1,24 @@
+.swiperslide{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+@media (max-width: 850px) {
+    
+   .swiper_slider{
+    display: flex;
+    justify-content: center;
+    } 
+}
+.slider_image{
+    width: auto;
+    height: 400px;
+    margin: 80px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
