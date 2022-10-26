@@ -5,7 +5,7 @@ import './googlemap.css'
 export const GoogleMap = (props) => {
 
   const {
-    iframeSource ='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3345.1423914999677!2d-71.54937648525129!3d-33.02637888325794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689de7523224625%3A0xc280eaf0156cb7e8!2sSuperZoo!5e0!3m2!1ses-419!2scl!4v1665326222766!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowFullScreen="" loading="lazy" >mapa</iframe>'
+    iframeSource ='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d418.03753943634!2d-71.38841059137157!3d-33.04855957150695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689d82eabf736c9%3A0x274278906194bed9!2sLos%20Olivos%20314%2C%202460493%20Marga%20Marga%2C%20Villa%20Alemana%2C%20Valpara%C3%ADso!5e0!3m2!1ses-419!2scl!4v1666755168367!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
   } = props
 
   return (
