@@ -57,7 +57,7 @@
 
     .invitation_image{
         margin: 0px 20px 100px 20px;
-        width: 370px;
+        width: 350px;
 
     }
     
@@ -66,7 +66,7 @@
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
-        font-size: 60px;
+        font-size: 50px;
         
     }
 }
