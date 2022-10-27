@@ -18,9 +18,11 @@
     text-align: center;
     font-family: 'Macondo', cursive;
     font-weight: 600;
-    font-size: 40px;
-    text-shadow: 2px 0 4px black;
-    color: rgb(208,162,95);
+    font-size: 50px;
+    text-shadow: 4px 2px 3px black;
+    /* color: rgb(208,162,95); */
+    color: hsl(30, 89%, 47%);
+
     
 }
 
@@ -30,8 +32,9 @@
     align-items: center;
     text-align: center;
     font-family: 'Luckiest Guy', cursive;
-    text-shadow: 2px 0 4px black;
-    color: #292827;
+    text-shadow: 4px 2px 3px black;
+    color: hsl(60, 80%, 51%);
+
     font-size: 50px;
 }
 

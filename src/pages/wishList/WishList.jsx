@@ -2,13 +2,12 @@ import { useState } from 'react';
 import './whishList.css'
 
 const gues = [
-    'Camiones de Juguetes', 
-    'Autos' ,
+    'Camiones o autos', 
     'Ropa talla 2', 
     'Toalla de baño', 
     'vaso con bombilla', 
     'zapatos talla 23', 
-    'Gorro de sol',
+    'Jockey',
     'Libros en español o inglés',
 
 ];
