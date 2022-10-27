@@ -13,9 +13,9 @@ export const NavBar = () => {
             <div className='nav_list_container'>
                 <ul className="nav_list">
 
-                    <Link  className='nav_link nav_list list_container' to='invitation' spy={true} smooth={true} offset={50} duration={500}>Mi cumple</Link>
-                    <Link className='nav_link nav_list list_container' to='wishList' spy={true} smooth={true} offset={50} duration={500}>Lista de Deseos</Link>
-                    <Link className='nav_link nav_list list_container' to='map' spy={true} smooth={true} offset={50} duration={500}>Dirección</Link>
+                    <Link   className='nav_list list_container' to='invitation' spy={true} smooth={true} offset={50} duration={500}>Mi cumple</Link>
+                    <Link   className='nav_list list_container' to='wishList' spy={true} smooth={true} offset={50} duration={500}>Lista de Deseos</Link>
+                    <Link   className='nav_list list_container' to='map' spy={true} smooth={true} offset={50} duration={500}>Dirección</Link>
 
                 </ul>
             </div>
