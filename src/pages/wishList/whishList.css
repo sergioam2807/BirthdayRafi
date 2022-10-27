@@ -2,6 +2,11 @@
     display: flex;
     justify-content: center;
     font-family: 'Luckiest Guy', cursive;
+    margin: 30px;
+    background: rgba(131,164,199,255);
+    font-family: 'Luckiest Guy', cursive;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .wish_list_list{
@@ -48,10 +53,9 @@
 
     .titulo{
         margin-top: 20px;
-        font-family: 'Luckiest Guy', cursive;
         border-radius: 10px;
-        margin: 20px 50px 0px 50px;
         display: flex;
         justify-content: center;
+        text-align: center;
     }
 }

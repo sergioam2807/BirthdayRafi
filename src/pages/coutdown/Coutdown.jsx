@@ -48,7 +48,7 @@ export const Coutdown = () => {
         <>
         <div className='countDown_container_container' id='countDown'>
 
-            <h1 className='countDown_party'>12 de Noviembre 2022</h1>
+            <h1 className='countDown_party'>12 de Noviembre 16:00 hrs</h1>
 
             <div className='countDown_container'>
                 <div>
